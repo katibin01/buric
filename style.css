@@ -1,0 +1,55 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+h1, h2, p {
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 40px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.about-content,
+.cta-content,
+.signup-content {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
